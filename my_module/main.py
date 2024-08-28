@@ -1,4 +1,4 @@
-from bluedot import BlueDot
+from bluedot import BlueDot #библиотека для работы с блютузом, можно поресерчить для полной инфы
 from gpiomodule import lock, unlock, door_is_closed, wait_for_close, wait_for_open
 from signal import pause
 from time import sleep

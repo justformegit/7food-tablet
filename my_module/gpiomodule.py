@@ -2,8 +2,8 @@ from gpiozero import DigitalOutputDevice
 from gpiozero import Button
 
 
-relay = DigitalOutputDevice(pin=2)
-gercon = Button(pin=18)
+relay = DigitalOutputDevice(pin=2) #реле модуль для контроля замка
+gercon = Button(pin=18) #датчик двери
 
 def lock():
     relay.off()
