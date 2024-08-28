@@ -1,0 +1,6 @@
+opencv-python
+dbus-python
+bluedot
+colorzero
+gpiozero
+#lgpio
